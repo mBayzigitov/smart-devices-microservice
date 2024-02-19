@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/1__create_devices.sql
+  - include:
+      file: db/changelog/2__add_homeId_column.sql
+  - include:
+      file: db/changelog/3__add_roomId_column.sql

@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/1__create_user.sql
+  - include:
+      file: db/changelog/2__create_refresh_token.sql
+  - include:
+      file: db/changelog/3__add_name_column.sql
+  - include:
+      file: db/changelog/4__create_outbox_messages.sql

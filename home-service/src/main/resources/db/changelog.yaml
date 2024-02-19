@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/1__home_rooms.sql
+  - include:
+      file: db/changelog/2__add_userid_column.sql
+  - include:
+      file: db/changelog/3__create_outbox_messages.sql
